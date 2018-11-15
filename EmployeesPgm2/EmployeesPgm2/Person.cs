@@ -11,6 +11,12 @@ namespace EmployeesPgm2
         public string firstName;
         public string lastName;
 
+        public Person()
+        {
+            firstName = "";
+            lastName = "";
+        }
+
         public abstract void SayName();
     }
 }
